@@ -31,7 +31,7 @@ video {
   width: 100%;
   height: auto;
 }
-#testimonial-vid{
+#testimonial-vid {
   width: 279px;
   object-fit: cover;
   border-radius: 10px;
@@ -228,10 +228,10 @@ ul li a {
   background: white;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  display: flex;
-  justify-content: space-around;
+  /* display: flex; */
+  /* justify-content: space-around; */
   opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+  /* transition: opacity 0.3s ease-in-out; */
   border-top: 3px solid #03a4e3;
 }
 .mega-column {
@@ -489,19 +489,19 @@ section1 h2 {
     box-shadow: 0 0 3px grey;
     margin: 0 1rem;
   }
-  #line1{
+  #line1 {
     display: none;
   }
-  #line2{
+  #line2 {
     display: none;
   }
-  #line3{
+  #line3 {
     display: none;
   }
-  #line4{
+  #line4 {
     display: none;
   }
-  #line5{
+  #line5 {
     display: none;
   }
 }
@@ -659,7 +659,7 @@ section1 h2 {
 
 .full-width {
   width: 721px;
-  height: 12    0px;
+  height: 12 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -750,7 +750,7 @@ section1 h2 {
     gap: 10px; /* Card ke beech gap */
     width: 100%;
   }
-  .full-width{
+  .full-width {
     display: none;
   }
   .expert-card {
@@ -851,7 +851,7 @@ section1 h2 {
   align-items: center;
   justify-content: center;
 }
-.logos img{
+.logos img {
   margin-top: 2.3rem;
   height: 17%;
   display: flex;
@@ -864,22 +864,22 @@ section1 h2 {
   border-radius: 25px;
   margin-right: 2rem;
 }
-.R1_cards p{
+.R1_cards p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.R2_cards p{
+.R2_cards p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.R3_cards p{
+.R3_cards p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.R1_cards h3{
+.R1_cards h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.R2_cards h3{
+.R2_cards h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.R3_cards h3{
+.R3_cards h3 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -1116,7 +1116,7 @@ section5 button {
   padding: 0px 200px 0px;
   line-height: 35px;
 }
-.text1_sect p{
+.text1_sect p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .grid-item a {
@@ -1224,18 +1224,18 @@ section5 button {
   color: #555;
   margin: 10px 0;
 }
-#stats-conainer{
+#stats-conainer {
   margin-top: 2rem;
   display: flex;
   margin: 0 2rem;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-#stats-item{
+#stats-item {
   height: 12em;
   border-radius: 15px;
   width: 20rem;
-  background-color: #F5FAEF;
+  background-color: #f5faef;
 }
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -1301,17 +1301,17 @@ section5 button {
   font-size: 2rem;
 }
 /* ==end== */
-#form-hrading{
+#form-hrading {
   display: flex;
   /* align-items: center; */
   justify-content: center;
 }
-#form-cont{
+#form-cont {
   height: 700px;
   width: 700px;
   border-radius: 25px;
   padding: 3rem;
-  background-color: #EDF9F8;
+  background-color: #edf9f8;
   margin-top: 3rem;
   margin-left: 6rem;
 }
@@ -2019,7 +2019,6 @@ h1 {
   display: flex;
   text-align: center;
   align-items: center;
-
 }
 
 .Photo3_section {
@@ -2463,17 +2462,17 @@ h1 {
     width: 85% !important;
     height: 350px;
   }
-  
+
   #s3-card3 {
     width: 85% !important;
     height: 350px;
   }
-  
+
   #s3-card4 {
     width: 85% !important;
     height: 350px;
   }
-  
+
   #s3-card5 {
     width: 85% !important;
     height: 350px;
@@ -2643,9 +2642,8 @@ h1 {
     display: flex;
     gap: 10;
     row-gap: 1rem;
-    
   }
-  .grid-item h3{
+  .grid-item h3 {
     margin-left: 1rem;
   }
   #s2-content {
@@ -2847,20 +2845,17 @@ h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     padding: 20px 0px 0px 0px;
   }
-  .R1_cards p{
+  .R1_cards p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
-
   }
-  .R2_cards p{
+  .R2_cards p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
-
   }
-  .R3_cards p{
+  .R3_cards p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1.1rem;
-
   }
   .text1_sect p {
     font-size: 1.2rem;
@@ -3043,30 +3038,30 @@ h1 {
 .blog-card a:hover {
   text-decoration: underline;
 }
-#teams{
+#teams {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.member{
+.member {
   margin: auto;
   display: flex;
   /* background-color: red; */
-  height:75vh;
+  height: 75vh;
   width: 65vw;
   box-shadow: 0 1px 3px 1px lightgrey;
   border-radius: 5px;
 }
-.member-left{
+.member-left {
   display: flex;
 }
-#member-content{
+#member-content {
   width: 25vw;
   height: 100%;
   background-color: red;
 }
-#member-image{
+#member-image {
   height: 100%;
   width: 40vw;
   background-color: rgb(0, 255, 38);
@@ -3103,7 +3098,7 @@ footer {
   #line5 {
     margin-top: 1.5rem;
   }
-  .banner-section-serc-page{
+  .banner-section-serc-page {
     min-height: 26vh !important;
   }
 }
@@ -3113,19 +3108,19 @@ footer {
     width: 100%;
   }
 }
-@media (max-width: 1080px){
-  #s3-seo-card2{
+@media (max-width: 1080px) {
+  #s3-seo-card2 {
     height: auto;
     width: 43%;
   }
-  #s3-seo-card{
+  #s3-seo-card {
     height: auto;
     width: 43%;
   }
-  #image-left img{
+  #image-left img {
     display: none;
   }
-  #image-right img{
+  #image-right img {
     margin: auto;
   }
   #image-right {
@@ -3133,26 +3128,26 @@ footer {
     align-items: center;
     justify-content: center;
   }
-  #s1-img-container{
+  #s1-img-container {
     justify-content: center;
   }
-  .banner-section-serc-page{
+  .banner-section-serc-page {
     min-height: 115vh;
   }
-  #s3-cards{
+  #s3-cards {
     width: auto;
   }
-  .Video_logo_section1{
+  .Video_logo_section1 {
     justify-content: center;
     flex-wrap: wrap;
   }
-  .Content_image{
+  .Content_image {
     flex-wrap: wrap;
   }
-  .text1_sect{
+  .text1_sect {
     max-width: unset;
   }
-  .Cards_Result{
+  .Cards_Result {
     flex-direction: column;
   }
 }
