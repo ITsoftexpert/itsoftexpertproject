@@ -1752,6 +1752,8 @@ h1 {
 .section_img img {
   max-width: 100%;
   border-radius: 8px;
+  height: -webkit-fill-available;
+  /* object-fit: cover; */
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -3150,4 +3152,29 @@ footer {
   .Cards_Result {
     flex-direction: column;
   }
+}
+
+.problem-subheading {
+  font-size: 20px;
+  color: #3a3a3a;
+}
+.solution-subheading {
+  font-size: 20px;
+  color: #3a3a3a;
+}
+.read-more-case-study-home {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #03a4e3;
+  font-weight: 700;
+  cursor: pointer;
+}
+.read-more-case-study-home:hover {
+  background: transparent;
+  border: none;
+  font-size: 16px;
+  color: #03a3e3c1;
+  cursor: pointer;
+  font-weight: 700;
 }
