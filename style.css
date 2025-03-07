@@ -258,7 +258,7 @@ ul li a {
 
 /* Show mega menu on hover */
 .nav-menu .services:hover .mega-menu {
-  display: flex;
+  /* display: flex; */
   opacity: 1;
 }
 
