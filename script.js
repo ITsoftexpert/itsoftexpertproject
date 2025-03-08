@@ -41,10 +41,10 @@ gsap.to(".nav-item", {
     end: "bottom top",
     scrub: true,
     onEnter: () => {
-      gsap.to(".nav-menu #tb", { color: "black" });
+      gsap.to(".menunew-main #tb", { color: "black" });
     },
     onLeaveBack: () => {
-      gsap.to(".nav-menu #tb", { color: "white" });
+      gsap.to(".menunew-main #tb", { color: "white" });
     },
   },
 });
@@ -80,17 +80,25 @@ gsap.to("header", {
   },
 });
 function hideLoader() {
-  gsap.to(".loader", { opacity: 0, duration: 1, onComplete: () => {
+  gsap.to(".loader", {
+    opacity: 0,
+    duration: 1,
+    onComplete: () => {
       document.querySelector(".loader").style.display = "none";
-  }});
+    },
+  });
 }
 
-   ///////////////////////// Mega-Menu \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+///////////////////////// Mega-Menu \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 document.querySelector(".services").addEventListener("mouseenter", () => {
-    gsap.to(".mega-menu", { opacity: 1, y: 10, duration: 0.1, display: "flex" });
+  gsap.to(".mega-menu", { opacity: 1, y: 10, duration: 0.1, display: "flex" });
 });
 
 document.querySelector(".services").addEventListener("mouseleave", () => {
-    gsap.to(".mega-menu", { opacity: 0, y: 0, duration: 0.1, display: "none" });
-}); 
+  gsap.to(".mega-menu", { opacity: 0, y: 0, duration: 0.1, display: "none" });
+});
+
+// new header js by nitin start
+
+// new header js by nitin end
