@@ -34,6 +34,22 @@
 //   gooey: true,
 // });
 
+// Loader Animation
+function hideLoader() {
+  gsap.to(".loader", {
+    opacity: 0,
+    duration: 1,
+    onComplete: () => {
+      document.querySelector(".loader").style.display = "none";
+      gsap.set("headernew", { opacity: 1 }); // Header ko loader ke baad visible karna
+    },
+  });
+}
+
+// Header ko initially hide karte hain
+gsap.set("headernew", { opacity: 0 });
+
+// GSAP Scroll Animation
 gsap.to(".nav-item", {
   scrollTrigger: {
     trigger: ".second",
@@ -41,31 +57,33 @@ gsap.to(".nav-item", {
     end: "bottom top",
     scrub: true,
     onEnter: () => {
-      gsap.to(".menunew-main #tb", { color: "black" });
+      gsap.to(".menunew #tb", { color: "black" });
     },
     onLeaveBack: () => {
-      gsap.to(".menunew-main #tb", { color: "white" });
+      gsap.to(".menunew #tb", { color: "white" });
     },
   },
 });
-gsap.to("header", {
+
+gsap.to("headernew", {
   scrollTrigger: {
     trigger: ".second",
     start: "top top",
     end: "bottom top",
     scrub: true,
     onEnter: () => {
-      gsap.to("header", {
+      gsap.to("headernew", {
         backgroundColor: "#fff",
         boxShadow: "rgba(0, 0, 0, 0.04) 0px 3px 5px",
       });
     },
     onLeaveBack: () => {
-      gsap.to("header", { backgroundColor: "rgba(0, 0, 0, 0)" });
+      gsap.to("headernew", { backgroundColor: "rgba(0, 0, 0, 0)" });
     },
   },
 });
-gsap.to("header", {
+
+gsap.to("headernew", {
   scrollTrigger: {
     trigger: ".second",
     start: "top top",
@@ -79,26 +97,3 @@ gsap.to("header", {
     },
   },
 });
-function hideLoader() {
-  gsap.to(".loader", {
-    opacity: 0,
-    duration: 1,
-    onComplete: () => {
-      document.querySelector(".loader").style.display = "none";
-    },
-  });
-}
-
-///////////////////////// Mega-Menu \\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-
-document.querySelector(".services").addEventListener("mouseenter", () => {
-  gsap.to(".mega-menu", { opacity: 1, y: 10, duration: 0.1, display: "flex" });
-});
-
-document.querySelector(".services").addEventListener("mouseleave", () => {
-  gsap.to(".mega-menu", { opacity: 0, y: 0, duration: 0.1, display: "none" });
-});
-
-// new header js by nitin start
-
-// new header js by nitin end

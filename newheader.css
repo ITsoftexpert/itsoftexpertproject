@@ -53,12 +53,16 @@ a {
   position: fixed;
   width: 100%;
   top: 0;
-  background: #fff;
-  background-color: #fff;
+  /* background: #fff; */
+  /* background-color: #fff; */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   /* position: relative; */
   z-index: 999999999999999999999;
   padding: 0.5rem 2rem;
+}
+
+.internalpageshead {
+  background-color: #fff;
 }
 
 .headernew .item-left {
@@ -104,6 +108,12 @@ a {
   position: relative;
   text-transform: capitalize;
   transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .headernew .menunew > ul > li > a {
+    color: #000 !important;
+  }
 }
 
 .headernew .menunew > ul > li .sub-menunew {
